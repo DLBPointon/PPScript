@@ -232,7 +232,7 @@
         "winget": "na"
     },
     "jdownloader": {
-        "category": "Utilities",
+        "category": "Others",
         "choco": "jdownloader",
         "content": "JDownloader",
         "description": "JDownloader is a feature-rich download manager with support for various file hosting services.",
@@ -240,7 +240,7 @@
         "winget": "AppWork.JDownloader"
     },
     "moonlight": {
-        "category": "Games",
+        "category": "Others",
         "choco": "moonlight-qt",
         "content": "Moonlight/GameStream Client",
         "description": "Moonlight/GameStream Client allows you to stream PC games to other devices over your local network.",
@@ -248,7 +248,7 @@
         "winget": "MoonlightGameStreamingProject.Moonlight"
     },
     "sunshine": {
-        "category": "Games",
+        "category": "Others",
         "choco": "sunshine",
         "content": "Sunshine/GameStream Server",
         "description": "Sunshine is a GameStream server that allows you to remotely play PC games on Android devices, offering low-latency streaming.",
@@ -256,7 +256,7 @@
         "winget": "LizardByte.Sunshine"
     },
     "piimager": {
-        "category": "Utilities",
+        "category": "Others",
         "choco": "rpi-imager",
         "content": "Raspberry Pi Imager",
         "description": "Raspberry Pi Imager is a utility for writing operating system images to SD cards for Raspberry Pi devices.",
@@ -264,7 +264,7 @@
         "winget": "RaspberryPiFoundation.RaspberryPiImager"
     },
     "rufus": {
-        "category": "Utilities",
+        "category": "Others",
         "choco": "rufus",
         "content": "Rufus Imager",
         "description": "Rufus is a utility that helps format and create bootable USB drives, such as USB keys or pen drives.",
@@ -272,7 +272,7 @@
         "winget": "Rufus.Rufus"
     },
     "tidal": {
-        "category": "Multimedia Tools",
+        "category": "Others",
         "choco": "na",
         "content": "Tidal",
         "description": "Tidal is a music streaming service known for its high-fidelity audio quality and exclusive content. It offers a vast library of songs and curated playlists.",
@@ -280,7 +280,7 @@
         "winget": "9NNCB5BS59PH"
     },
     "firefox": {
-        "category": "Browsers",
+        "category": "Others",
         "choco": "firefox",
         "content": "Firefox",
         "description": "Mozilla Firefox is an open-source web browser known for its customization options, privacy features, and extensions.",

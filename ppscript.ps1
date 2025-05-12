@@ -1,11 +1,11 @@
-. "/functions/private/Install-ChocoPrograms.ps1"
+. "$PSScriptRoot/functions/private/Install-ChocoPrograms.ps1"
 
 <#
     .SYNOPSIS
         An opinionated windows setup script
 
     .DESCRIPTION
-        Written by Damon-Lee Pointon (DLBPointon) - 12/May/2025
+
 
         This is a Windows 11 powershell script written to make setup of PC's
         just a bit easier.
@@ -70,6 +70,9 @@
 #>
 
 function CheckAndInstallChocolatey {
+    param (
+        [int]$installoption
+    )
     # Check is chocolatey is already installed
     $is_choco_installed = Get-Command -Name choco install dellcommandupdate.exe -ErrorAction SilentlyContinue
 
@@ -84,6 +87,28 @@ function CheckAndInstallChocolatey {
         Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
         Write-Output 'If no errors then Chocolaty is now installed and ready for use.'
     }
+
+    InstallChocoApps -installoption $installoption
 }
 
-CheckAndInstallChocolatey
+function GreetingsUser {
+    param (
+        [int]$number
+    )
+    Write-Output "Welcome to PPScript - A personal and opinionated installed of tools"
+
+    Write-Output "Check the Docs and input a number! [1,2,3,4,5,6,9,0] <-- yes i know there's some missing."
+
+    $input = Read-Host "Option: "
+
+    if ($input -as [int]) {
+        $number = [int]$input
+        Write-Host "Thanks, now checking where Chocolatey is..."
+        Install-ChocoPrograms -installoption $input
+
+    } else {
+        Write-Host "That is not a valid number."
+    }
+}
+
+GreetingsUser
