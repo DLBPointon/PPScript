@@ -1,0 +1,290 @@
+{
+    "chrome": {
+        "category": "general_programs",
+        "choco": "googlechrome",
+        "content": "Chrome",
+        "description": "Google Chrome is a widely used web browser known for its speed, simplicity, and seamless integration with Google services.",
+        "link": "https://www.google.com/chrome/",
+        "winget": "Google.Chrome"
+    },
+    "fancontrol": {
+        "category": "general_programs",
+        "choco": "na",
+        "content": "FanControl",
+        "description": "Fan Control is a free and open-source software that allows the user to control his CPU, GPU and case fans using temperatures.",
+        "link": "https://getfancontrol.com/",
+        "winget": "Rem0o.FanControl"
+    },
+    "files": {
+        "category": "general_programs",
+        "choco": "files",
+        "content": "Files",
+        "description": "Alternative file explorer.",
+        "link": "https://github.com/files-community/Files",
+        "winget": "na"
+    },
+    "hwinfo": {
+        "category": "general_programs",
+        "choco": "hwinfo",
+        "content": "HWiNFO",
+        "description": "HWiNFO provides comprehensive hardware information and diagnostics for Windows.",
+        "link": "https://www.hwinfo.com/",
+        "winget": "REALiX.HWiNFO"
+    },
+    "libreoffice": {
+        "category": "general_programs",
+        "choco": "libreoffice-fresh",
+        "content": "LibreOffice",
+        "description": "LibreOffice is a powerful and free office suite, compatible with other major office suites.",
+        "link": "https://www.libreoffice.org/",
+        "winget": "TheDocumentFoundation.LibreOffice"
+    },
+    "obsidian": {
+        "category": "general_programs",
+        "choco": "obsidian",
+        "content": "Obsidian",
+        "description": "Obsidian is a powerful note-taking and knowledge management application.",
+        "link": "https://obsidian.md/",
+        "winget": "Obsidian.Obsidian"
+    },
+    "spotify": {
+        "category": "general_program",
+        "choco": "spotify",
+        "content": "Spotify",
+        "description": "Spotify is a digital music service that gives you access to millions of songs, podcasts, and videos from artists all over the world.",
+        "link": "https://www.spotify.com/",
+        "winget": "Spotify.Spotify"
+    },
+    "tor": {
+        "category": "general_programs",
+        "choco": "tor-browser",
+        "content": "Tor Browser",
+        "description": "Tor Browser is designed for anonymous web browsing, utilizing the Tor network to protect user privacy and security.",
+        "link": "https://www.torproject.org/",
+        "winget": "TorProject.TorBrowser"
+    },
+    "vlc": {
+        "category": "general_programs",
+        "choco": "vlc",
+        "content": "VLC (Video Player)",
+        "description": "VLC Media Player is a free and open-source multimedia player that supports a wide range of audio and video formats. It is known for its versatility and cross-platform compatibility.",
+        "link": "https://www.videolan.org/vlc/",
+        "winget": "VideoLAN.VLC"
+    },
+    "winrar": {
+        "category": "general_programs",
+        "choco": "winrar",
+        "content": "WinRAR",
+        "description": "WinRAR is a powerful archive manager that allows you to create, manage, and extract compressed files.",
+        "link": "https://www.win-rar.com/",
+        "winget": "RARLab.WinRAR"
+    },
+    "zoom": {
+        "category": "general_programs",
+        "choco": "zoom",
+        "content": "Zoom",
+        "description": "Zoom is a popular video conferencing and web conferencing service for online meetings, webinars, and collaborative projects.",
+        "link": "https://zoom.us/",
+        "winget": "Zoom.Zoom"
+    },
+    "vscodium": {
+        "category": "programming_tools",
+        "choco": "vscodium",
+        "content": "VS Codium",
+        "description": "VSCodium is a community-driven, freely-licensed binary distribution of Microsoft's VS Code.",
+        "link": "https://vscodium.com/",
+        "winget": "VSCodium.VSCodium"
+    },
+    "python3": {
+        "category": "programming_tools",
+        "choco": "python",
+        "content": "Python3",
+        "description": "Python is a versatile programming language used for web development, data analysis, artificial intelligence, and more.",
+        "link": "https://www.python.org/",
+        "winget": "na"
+    },
+    "rustlang": {
+        "category": "programming_tools",
+        "choco": "rust",
+        "content": "Rust",
+        "description": "Rust is a programming language designed for safety and performance, particularly focused on systems programming.",
+        "link": "https://www.rust-lang.org/",
+        "winget": "Rustlang.Rust.MSVC"
+    },
+    "termius": {
+        "category": "programming_tools",
+        "choco": "termius",
+        "content": "Termius",
+        "description": "A modern SSH terminal client",
+        "link": "https://termius.com/",
+        "winget": "na"
+    },
+    "dockerdesktop": {
+        "category": "programming_tools",
+        "choco": "docker-desktop",
+        "content": "Docker Desktop",
+        "description": "Docker Desktop is a powerful tool for containerized application development and deployment.",
+        "link": "https://www.docker.com/products/docker-desktop",
+        "winget": "Docker.DockerDesktop"
+    },
+    "git": {
+        "category": "programming_tools",
+        "choco": "git",
+        "content": "Git",
+        "description": "Git is a distributed version control system widely used for tracking changes in source code during software development.",
+        "link": "https://git-scm.com/",
+        "winget": "Git.Git"
+    },
+    "steam": {
+        "category": "Games",
+        "choco": "steam-client",
+        "content": "Steam",
+        "description": "Steam is a digital distribution platform for purchasing and playing video games, offering multiplayer gaming, video streaming, and more.",
+        "link": "https://store.steampowered.com/about/",
+        "winget": "Valve.Steam"
+    },
+    "eaapp": {
+        "category": "Games",
+        "choco": "ea-app",
+        "content": "EA App",
+        "description": "EA App is a platform for accessing and playing Electronic Arts games.",
+        "link": "https://www.ea.com/ea-app",
+        "winget": "ElectronicArts.EADesktop"
+    },
+    "Minecraft_bedrock": {
+        "category": "Games",
+        "choco": "na",
+        "content": "Minecraft Bedrock Launcher",
+        "description": "Minecraft",
+        "link": "https://www.minecraft.net/en-us",
+        "winget": "na"
+    },
+    "BattleNet_Blizzard": {
+        "category": "Games",
+        "choco": "na",
+        "content": "BattleNet Launcher",
+        "description": "BattleNet is the Blizzard Launcher",
+        "link": "https://eu.shop.battle.net/en-us",
+        "winget": "na"
+    },
+    "discord": {
+        "category": "Games",
+        "choco": "discord",
+        "content": "Discord",
+        "description": "Discord is a popular communication platform with voice, video, and text chat, designed for gamers but used by a wide range of communities.",
+        "link": "https://discord.com/",
+        "winget": "Discord.Discord"
+    },
+    "Curse-Forge": {
+        "category": "Games",
+        "choco": "na",
+        "content": "Curse Forge Launcher",
+        "description": "Modded games launcher - mainly for minecraft",
+        "link": "https://www.curseforge.com/",
+        "winget": "na"
+    },
+    "prismlauncher": {
+        "category": "Games",
+        "choco": "prismlauncher",
+        "content": "Prism Launcher",
+        "description": "Prism Launcher is an Open Source Minecraft launcher with the ability to manage multiple instances, accounts and mods.",
+        "link": "https://prismlauncher.org/",
+        "winget": "PrismLauncher.PrismLauncher"
+    },
+    "epicgames": {
+        "category": "Games",
+        "choco": "epicgameslauncher",
+        "content": "Epic Games Launcher",
+        "description": "Epic Games Launcher is the client for accessing and playing games from the Epic Games Store.",
+        "link": "https://www.epicgames.com/store/en-US/",
+        "winget": "EpicGames.EpicGamesLauncher"
+    },
+    "jellyfinmediaplayer": {
+        "category": "media_manager",
+        "choco": "jellyfin-media-player",
+        "content": "Jellyfin Media Player",
+        "description": "Jellyfin Media Player is a client application for the Jellyfin media server, providing access to your media library.",
+        "link": "https://github.com/jellyfin/jellyfin-media-player",
+        "winget": "Jellyfin.JellyfinMediaPlayer"
+    },
+    "calibre": {
+        "category": "media_manager",
+        "choco": "calibre",
+        "content": "Calibre",
+        "description": "Calibre is a powerful and easy-to-use e-book manager, viewer, and converter.",
+        "link": "https://calibre-ebook.com/",
+        "winget": "calibre.calibre"
+    },
+    "krita": {
+        "category": "Creativity",
+        "choco": "krita",
+        "content": "Krita (Image Editor)",
+        "description": "Krita is a powerful open-source painting application. It is designed for concept artists, illustrators, matte and texture artists, and the VFX industry.",
+        "link": "https://krita.org/en/features/",
+        "winget": "KDE.Krita"
+    },
+    "BlockBench": {
+        "category": "Creativity",
+        "choco": "na",
+        "content": "Minecraft Modding Tools",
+        "description": "Tool for designing minecraft mod blocks,skins and entities.",
+        "link": "https://www.blockbench.net/",
+        "winget": "na"
+    },
+    "jdownloader": {
+        "category": "Utilities",
+        "choco": "jdownloader",
+        "content": "JDownloader",
+        "description": "JDownloader is a feature-rich download manager with support for various file hosting services.",
+        "link": "https://jdownloader.org/",
+        "winget": "AppWork.JDownloader"
+    },
+    "moonlight": {
+        "category": "Games",
+        "choco": "moonlight-qt",
+        "content": "Moonlight/GameStream Client",
+        "description": "Moonlight/GameStream Client allows you to stream PC games to other devices over your local network.",
+        "link": "https://moonlight-stream.org/",
+        "winget": "MoonlightGameStreamingProject.Moonlight"
+    },
+    "sunshine": {
+        "category": "Games",
+        "choco": "sunshine",
+        "content": "Sunshine/GameStream Server",
+        "description": "Sunshine is a GameStream server that allows you to remotely play PC games on Android devices, offering low-latency streaming.",
+        "link": "https://github.com/LizardByte/Sunshine",
+        "winget": "LizardByte.Sunshine"
+    },
+    "piimager": {
+        "category": "Utilities",
+        "choco": "rpi-imager",
+        "content": "Raspberry Pi Imager",
+        "description": "Raspberry Pi Imager is a utility for writing operating system images to SD cards for Raspberry Pi devices.",
+        "link": "https://www.raspberrypi.com/software/",
+        "winget": "RaspberryPiFoundation.RaspberryPiImager"
+    },
+    "rufus": {
+        "category": "Utilities",
+        "choco": "rufus",
+        "content": "Rufus Imager",
+        "description": "Rufus is a utility that helps format and create bootable USB drives, such as USB keys or pen drives.",
+        "link": "https://rufus.ie/",
+        "winget": "Rufus.Rufus"
+    },
+    "tidal": {
+        "category": "Multimedia Tools",
+        "choco": "na",
+        "content": "Tidal",
+        "description": "Tidal is a music streaming service known for its high-fidelity audio quality and exclusive content. It offers a vast library of songs and curated playlists.",
+        "link": "https://tidal.com/",
+        "winget": "9NNCB5BS59PH"
+    },
+    "firefox": {
+        "category": "Browsers",
+        "choco": "firefox",
+        "content": "Firefox",
+        "description": "Mozilla Firefox is an open-source web browser known for its customization options, privacy features, and extensions.",
+        "link": "https://www.mozilla.org/en-US/firefox/new/",
+        "winget": "Mozilla.Firefox"
+    }
+}
