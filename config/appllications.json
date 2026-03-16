@@ -48,7 +48,7 @@
         "winget": "Obsidian.Obsidian"
     },
     "spotify": {
-        "category": "general_program",
+        "category": "general_programs",
         "choco": "spotify",
         "content": "Spotify",
         "description": "Spotify is a digital music service that gives you access to millions of songs, podcasts, and videos from artists all over the world.",
