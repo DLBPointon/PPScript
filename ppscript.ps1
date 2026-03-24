@@ -74,7 +74,7 @@ function CheckAndInstallChocolatey {
         [int]$installoption
     )
     # Check is chocolatey is already installed
-    $is_choco_installed = Get-Command -Name choco install dellcommandupdate.exe -ErrorAction SilentlyContinue
+    $is_choco_installed = Get-Command -Name choco -ErrorAction SilentlyContinue
 
     if ( $is_choco_installed ) {
         Write-Output 'Chocolaty is installed already!'
@@ -88,7 +88,7 @@ function CheckAndInstallChocolatey {
         Write-Output 'If no errors then Chocolaty is now installed and ready for use.'
     }
 
-    InstallChocoApps -installoption $installoption
+    Install-ChocoPrograms -installoption $installoption
 }
 
 function GreetingsUser {
@@ -99,12 +99,12 @@ function GreetingsUser {
 
     Write-Output "Check the Docs and input a number! [1,2,3,4,5,6,9,0] <-- yes i know there's some missing."
 
-    $input = Read-Host "Option: "
+    $userInput = Read-Host "Option: "
 
-    if ($input -as [int]) {
-        $number = [int]$input
+    if ($userInput -as [int]) {
+        $number = [int]$userInput
         Write-Host "Thanks, now checking where Chocolatey is..."
-        Install-ChocoPrograms -installoption $input
+        CheckAndInstallChocolatey -installoption $number
 
     } else {
         Write-Host "That is not a valid number."
